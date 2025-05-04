@@ -20,14 +20,25 @@ This tool helps security researchers, mobile pentesters, and developers analyze 
 
 ## 📦 Requirements
 
-- Python 3.6+
-- [APKTool](https://ibotpeaches.github.io/Apktool/) installed and accessible (Windows users: check `.bat` path)
-- Python modules:
-  - tqdm
-  - termcolor
+1. **Install JRE 8u451 and set the PATH environment variable and that is included in this repository.**
+   
+2. **Install Python 3.6+**
 
-Install dependencies:
+3. **Install Python dependencies**
 
-```bash
-pip install tqdm termcolor
+   ```bash
+   pip install tqdm termcolor
 
+4. **Run the Tool**:
+    ```bash
+    python check_cryptography.py <apk_file_path>
+    ```
+
+    Replace `<apk_file_path>` with the path to the APK file you want to analyze.
+
+---
+
+### 📝 Notes:
+- **No need to install APKTool separately** — the script includes it.
+- Make sure **JRE is correctly installed** and available in your system `PATH`.
+- **Hardcoded key detection** may produce false positives — treat them as warnings, not definite findings.
