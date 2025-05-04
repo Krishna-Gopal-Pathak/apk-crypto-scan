@@ -38,6 +38,12 @@ This tool helps security researchers, mobile pentesters, and developers analyze 
 
 ---
 
+### 🖼️ Tool Screenshot:
+
+![Tool Screenshot](https://github.com/user-attachments/assets/34f3848f-c05c-431b-a396-93b0f66ffa05)
+
+---
+
 ### 📝 Notes:
 - **No need to install APKTool separately** — the script includes it.
 - Make sure **JRE is correctly installed** and available in your system `PATH`.
